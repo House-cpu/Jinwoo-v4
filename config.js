@@ -10,7 +10,7 @@ const defaultOwner = '263780166288';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
-const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '263780166288' ; // put your number here
+const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '233532871325' ; // put your number here
 
 const ownerlist = ownervb.split(';');
 
@@ -20,12 +20,12 @@ for (let i = 0; i < ownerlist.length; i++) {
 }
 //
 global.botname = process.env.BOTNAME || 'ᴊɪɴᴡᴏᴏ ᴠ4';
-global.pairingNumber = process.env.BOT_NUMBER || '' ;  // put your number here
-global.SESSION_ID = process.env.SESSION_ID || '' ;  // put your session id here
+global.pairingNumber = process.env.BOT_NUMBER || '233532871325' ;  // put your number here
+global.SESSION_ID = process.env.SESSION_ID || 'AzVl2TqL#mEZ0opz9OtGJuIfXfVyj9XbHCs7SwVBJO_8rqDfKrsU' ;  // put your session id here
 
 global.mods = []
 global.prems = []
-global.allowed = ['263714757857', '263780934873']
+global.allowed = ['233532871325', '263780934873']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
